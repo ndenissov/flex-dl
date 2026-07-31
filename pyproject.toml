@@ -1,5 +1,5 @@
 [project]
-name = "flex-dl"
+name = "kino-flex-dl"
 version = "0.1.1"
 description = "CLI tool and Python library for downloading media content from flex-kino.com"
 authors = [
@@ -27,6 +27,7 @@ classifiers = [
 dependencies = []
 
 [project.scripts]
+kino-flex-dl = "flex_dl.__main__:main"
 flex-dl = "flex_dl.__main__:main"
 
 [project.urls]

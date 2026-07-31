@@ -1,9 +1,9 @@
 # flex-dl
 
-[![PyPI version](https://img.shields.io/pypi/v/flex-dl.svg)](https://pypi.org/project/flex-dl/)
-[![Downloads](https://static.pepy.tech/badge/flex-dl)](https://pepy.tech/project/flex-dl)
-[![Python versions](https://img.shields.io/pypi/pyversions/flex-dl.svg)](https://pypi.org/project/flex-dl/)
-[![License](https://img.shields.io/pypi/l/flex-dl.svg)](https://github.com/ndenissov/flex-dl/blob/main/LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/kino-flex-dl.svg)](https://pypi.org/project/kino-flex-dl/)
+[![Downloads](https://static.pepy.tech/badge/kino-flex-dl)](https://pepy.tech/project/kino-flex-dl)
+[![Python versions](https://img.shields.io/pypi/pyversions/kino-flex-dl.svg)](https://pypi.org/project/kino-flex-dl/)
+[![License](https://img.shields.io/pypi/l/kino-flex-dl.svg)](https://github.com/ndenissov/flex-dl/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/ndenissov/flex-dl)](https://github.com/ndenissov/flex-dl/stargazers)
 
 CLI tool and Python library for downloading movies, series, and video content from flex-kino.com using `yt-dlp`.
@@ -24,13 +24,13 @@ CLI tool and Python library for downloading movies, series, and video content fr
 Install using `pip`:
 
 ```bash
-pip install flex-dl
+pip install kino-flex-dl
 ```
 
 Or using `poetry`:
 
 ```bash
-poetry add flex-dl
+poetry add kino-flex-dl
 ```
 
 ---
@@ -39,10 +39,10 @@ poetry add flex-dl
 
 ### Command Line Interface
 
-Run using the `flex-dl` entrypoint or via module execution:
+Run using the `kino-flex-dl` entrypoint (or `flex-dl`) or via module execution:
 
 ```bash
-flex-dl <slug> [options]
+kino-flex-dl <slug> [options]
 ```
 
 Or:
@@ -76,13 +76,13 @@ options:
 Print yt-dlp download commands without executing them:
 
 ```bash
-flex-dl movie-slug -l
+kino-flex-dl movie-slug -l
 ```
 
 Download specific seasons and episodes:
 
 ```bash
-flex-dl series-slug -s "1,2:1,2,3" -f "best"
+kino-flex-dl series-slug -s "1,2:1,2,3" -f "best"
 ```
 
 ---
